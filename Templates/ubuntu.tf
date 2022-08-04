@@ -1,10 +1,10 @@
-module ${VM_NAME} {
+module VM_NAME {
     source              = "./Module"
 
     # resource group
-    location            = "${LOCATION}"
+    location            = "LOCATION"
 
     # vm
-    virtual_machine_name = "${VM_NAME}"
-    admin_username = "${ADMIN_USERNAME}"
+    virtual_machine_name = "VM_NAME"
+    admin_username = "ADMIN_USERNAME"
 } # endmodule "${LOCATION}"
