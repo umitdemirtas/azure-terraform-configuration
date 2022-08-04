@@ -7,4 +7,4 @@ module VM_NAME {
     # vm
     virtual_machine_name = "VM_NAME"
     admin_username = "ADMIN_USERNAME"
-} # endmodule "${LOCATION}"
+} # endmodule "VM_NAME"
