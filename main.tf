@@ -12,14 +12,3 @@ provider "azurerm" {
     
   }
 }
-
-module "vm1" {
-    source              = "./Module"
-
-    # resource group
-    location            = "West Europe"
-
-    # vm
-    virtual_machine_name = "testvm1"
-    admin_username = "umit"
-}
