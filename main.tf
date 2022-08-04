@@ -12,3 +12,13 @@ provider "azurerm" {
     
   }
 }
+module test1 {
+    source              = "./Module"
+
+    # resource group
+    location            = "West Europe"
+
+    # vm
+    virtual_machine_name = "test1"
+    admin_username = "test1"
+} # endmodule "test1"
