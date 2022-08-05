@@ -12,3 +12,14 @@ provider "azurerm" {
     
   }
 }
+
+module ubuntu2 {
+    source              = "./Module"
+
+    # resource group
+    location            = "West Europe"
+
+    # vm
+    virtual_machine_name = "ubuntu2"
+    admin_username = "anka"
+} # endmodule "ubuntu2"
